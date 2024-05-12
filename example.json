@@ -1,0 +1,42 @@
+[
+  {
+    "id":       1,
+    "name":     "Parent 1",
+    "image":    "path/to/parent1-image.jpg",
+    "parents":  null,
+    "spouses":  [2],
+    "children": [3,4,5]
+  },
+  {
+    "id":       1,
+    "name":     "Parent 2",
+    "image":    "path/to/parent2-image.jpg",
+    "parents":  null,
+    "spouses":  [1],
+    "children": [3,4,5]
+  },
+  {
+    "id":       3,
+    "name":     "Child 1",
+    "image":    "path/to/child1-image.jpg",
+    "parents":  [1,2],
+    "spouse":  null,
+    "children": null
+  },
+  {
+    "id":       4,
+    "name":     "Child 2",
+    "image":    "path/to/child2-image.jpg",
+    "parents":  [1,2],
+    "spouse":  null,
+    "children": null
+  },
+  {
+    "id":       5,
+    "name":     "Child 3",
+    "image":    "path/to/child3-image.jpg",
+    "parents":  [1,2],
+    "spouse":  null,
+    "children": null
+  }
+]
